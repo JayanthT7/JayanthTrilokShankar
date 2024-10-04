@@ -1,2 +1,2 @@
 # JayanthTrilokShankar
-Profile 
+Profile for professional showcase of projects
