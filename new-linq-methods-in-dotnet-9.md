@@ -40,6 +40,7 @@ foreach (var (fruit, count) in fruitCounts)
 ```
 
 ### AggregateBy
+
 **Before .NET 9: Aggregating values by a key required GroupBy followed by an aggregation method like Sum**
 
 ```csharp
@@ -84,6 +85,7 @@ foreach (var sale in totalSales)
 ```
 
 ### Index
+
 **Before .NET 9: Finding the index of an element based on a condition often involved using Array.FindIndex or a loop**
 
 ```csharp
@@ -104,5 +106,6 @@ Console.WriteLine($"Index of 30: {index}");
 
 
 **Conclusion**
-The new LINQ methods in .NET 9—CountBy, AggregateBy, and Index—make data manipulation more efficient and expressive. By reducing the need for intermediate steps and providing more intuitive operations, these methods help you write cleaner, more maintainable code. Dive into .NET 9 and experience the streamlined data manipulation capabilities for yourself!
+
+The new LINQ methods in .NET 9—CountBy, AggregateBy, and Index—make data manipulation more efficient and expressive. By reducing the need for intermediate steps and providing more intuitive operations, these methods help you write cleaner, more maintainable code.
 
